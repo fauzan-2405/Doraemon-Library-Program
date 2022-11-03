@@ -1,0 +1,27 @@
+from read_file_user import data_user
+
+#input user nanti bisa pake dari input login awal saja
+#user_id = int(input("masukkan id user: "))
+def help ():
+    print("================================================    USER    ================================================")
+    print('\n' + "login         - melakukan login ke dalam sistem")
+    print("raritySearch     - mencari gadget berdasarkan rarity")
+    print("yearSearch       - mencari gadget berdasarkan tahun ditemukannya, dapat dipilih rentangnya (<, <=, =, >=, >)")
+    print("meminjam           - untuk meminjam gadget")
+    print("mengembalikan          - untuk mengembalikan gadget yang telah dipinjam")
+    print("meminta            - untuk meminta item consumable")
+    print("save             - untuk menyimpan perubahan data ke dalam file")
+    print("exit             - keluar dari sistem")
+    print("================================================    ADMIN    ================================================")
+    print('\n' + "register         - melakukan registrasi user baru")
+    print("login            - melakukan login ke dalam sistem")
+    print("raritySearch     - mencari gadget berdasarkan rarity")
+    print("yearSearch       - mencari gadget berdasarkan tahun ditemukannya, dapat dipilih rentangnya (<, <=, =, >=, >)")
+    print("tambahItem       - menambahan item (gadget atau consumable) ke dalam inventori")
+    print("hapusItem        - menghapus item (gadget atau consumable) dari database inventori")
+    print("ubahJml          - mengubah jumlah item (gadget atau consumable) pada database inventori")
+    print("riwayatPinjam    - menunjukkan 5 kegiatan peminjaman gadget terbaru")
+    print("riwayatKembali   - menunjukkan 5 kegiatan pengembalian gadget terbaru")
+    print("riwayatAmbil     - menunjukkan 5 kegiatan pengambilan consumable terbaru")
+    print("save             - untuk menyimpan perubahan data ke dalam file")
+    print("exit             - keluar dari sistem")
